@@ -18,34 +18,10 @@ function MeetingPage() {
                 <Layout>
                     <SEO title="Meetings" />
                     <h1>Meetings</h1>
-                    <p>Our current meeting schedule is as follows:</p>
-                    <div style={{
-                        overflowX: `scroll`
-                    }}>
-                        <table>
-                            <tr>
-                                <th>Monday</th>
-                                <th>Tuesday</th>
-                                <th>Wednesday</th>
-                                <th>Thursday</th>
-                                <th>Friday</th>
-                                <th>Saturday</th>
-                                <th>Sunday</th>
-                            </tr>
-                            <tr>
-                                <td>No Meeting</td>
-                                <td>No Meeting</td>
-                                <td>
-                                    6PM<br/>
-                                    QBB Room 424
-                                </td>
-                                <td>No Meeting</td>
-                                <td>No Meeting</td>
-                                <td>No Meeting</td>
-                                <td>No Meeting</td>
-                            </tr>
-                        </table>
+                    <div class="google-calendar">
+                        <iframe title="schedule" src="https://calendar.google.com/calendar/embed?src=derp332211%40gmail.com&ctz=America%2FChicago" style={{border: 0}} width="800" height="600" frameborder="0" scrolling="no"></iframe>
                     </div>
+                    <br />
                     <p>
                         While this is our set schedule, often times there are meetings hosted by members that may not fall on the one day a week we officially meet.
                         Reminders to meetings are sent out by email, if you would like to be added to our email list, join our club at 
