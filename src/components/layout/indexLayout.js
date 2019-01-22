@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from '../header'
-import '../css/layout.css'
-import '../css/custom.css'
+import '../../css/layout.css'
+import '../../css/custom.css'
 
 /**
  * Index Layout

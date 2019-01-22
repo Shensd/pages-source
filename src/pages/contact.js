@@ -37,14 +37,6 @@ const Contact = () => (
                     email={data.site.siteMetadata.contactInfo.president.email} 
                     phoneNumber={data.site.siteMetadata.contactInfo.president.phoneNumber}
                 />
-                <br />
-                <ContactCard 
-                    title={data.site.siteMetadata.contactInfo.facultyAdvisor.title} 
-                    name={data.site.siteMetadata.contactInfo.facultyAdvisor.name} 
-                    subTitle={data.site.siteMetadata.contactInfo.facultyAdvisor.subTitle} 
-                    email={data.site.siteMetadata.contactInfo.facultyAdvisor.email} 
-                    phoneNumber={data.site.siteMetadata.contactInfo.facultyAdvisor.phoneNumber}
-                />
             </Layout>
         )}
     />
