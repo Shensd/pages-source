@@ -18,6 +18,7 @@ const Header = ({ siteTitle }) => (
         <NavItem link='/about' body='ABOUT' />
         <NavItem link='/meetings' body='MEETINGS' />
         <NavItem link='/contact' body='CONTACT' />
+        <NavItem link='/blog' body='BLOG' />
     </Nav>
 );
 
