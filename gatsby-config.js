@@ -8,7 +8,7 @@ module.exports = {
         schoolFull: `North Dakota State University`,
         contactInfo: {
             president: {
-                title: "President",
+                title: "Current Tresurer",
                 name: "Lucas Miller",
                 subTitle: "",
                 email: "lucas.miller@ndsu.edu",
